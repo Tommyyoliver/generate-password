@@ -1,0 +1,253 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif, Arial, Helvetica;
+}
+
+.App {
+  text-align: center;
+  background-image: linear-gradient(180deg, #433562 0, #332a5d 25%, #1f1f59 50%, #001655 75%, #000d51 100%);
+  width: 100vw;
+  height: 100vh;
+}
+
+img {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+}
+
+.title {
+  font-weight: 700;
+  padding: 50px 0 30px 0;
+  color: #fefefe;
+}
+.subtitle {
+  width: 80vw;
+  margin: 0 auto 30px auto;
+  color: #fefefe;
+  font-weight: 600;
+}
+
+.display-input {
+  background-color: #fefefe;
+  margin: 0 auto;
+  border: 2px solid #121212;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px 0px #fff;
+  width: 300px;
+}
+.display input {
+  padding: 5px;
+  font-size: 1.4rem;
+  font-weight: 550;
+  width: 220px;
+  height: 50px;
+  margin: 0 10px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+.display button {
+  height: 40px;
+  background-color: transparent;
+  border: none;
+  color: #3f3f3f;
+  font-size: 1rem;
+  font-weight: 750;
+  text-transform: uppercase;
+}
+.display p {
+  width: 300px;
+  height: 20px;
+  margin: 5px auto;
+  padding: 5px;
+  text-align: start;
+  color: #900;
+  font-weight: 700;
+  font-size: .9rem;
+  text-transform: uppercase;
+}
+
+.settings {
+  margin-top: 20px;
+  width: 100vw;
+}
+.settings-inputs {
+  height: 50%;
+  width: min-content;
+  margin: 0 auto;
+}
+.settings-inputs .number {
+  width: 60px;
+  height: 60px;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.5rem;
+  font-weight: 700;
+  outline: none;
+  text-align: center;
+  margin-bottom: 20px;
+  background-color: #fefefe;
+}
+.settings-inputs .range {
+  -webkit-appearance: none;
+  width: 250px;
+  height: 20px;
+  background: rgba(255, 255, 255, 0.6);
+  border-radius: 5px;
+  background-color:#ff4500;
+}
+.settings-inputs .range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  height: 33px;
+  width: 33px;
+  border: 2px solid #121212;
+  border-radius: 50%;
+  background: #ff4500;
+  cursor: pointer;
+}
+
+.settings-button {
+  margin-top: 60px;
+  height: 50%;
+}
+.settings-button button {
+  width: 140px;
+  height: 50px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  background-color: #fefefe;
+  border: 1px solid #121212;
+  border-radius: 10px;
+  margin: 15px;
+}
+
+
+@media (min-width: 1024px) {
+  img {
+    width: 70px;
+    height: 70px;
+  }
+
+  .title {
+    font-size: 4rem;
+  }
+  .subtitle {
+    margin: 20px auto 50px auto;
+    font-size: 1.5rem;
+  }
+  
+  .display-input {
+    width: 600px;
+  }
+  .display input {
+    padding: 10px;
+    font-size: 1.6rem;
+    width: 500px;
+    height: 60px;
+  }
+  .display button {
+    height: 50px;
+    font-size: 1.3rem;
+  }
+  .display p {
+    width: 600px;
+    height: 30px;
+    font-size: 1.4rem;
+  }
+  
+  .settings {
+    margin-top: 40px;
+    width: 100vw;
+  }
+  .settings-inputs {
+    height: 50%;
+    width: min-content;
+    margin: 0 auto;
+  }
+  .settings-inputs .number {
+    width: 70px;
+    height: 70px;
+    font-size: 1.8rem;
+    margin-bottom: 40px;
+  }
+  .settings-inputs .range {
+    width: 400px;
+    height: 30px;
+  }
+  .settings-inputs .range::-webkit-slider-thumb {
+    height: 43px;
+    width: 43px;
+  }
+  
+  .settings-button {
+    margin-top: 60px;
+    height: 50%;
+  }
+  .settings-button button {
+    width: 200px;
+    height: 70px;
+    font-size: 1.7rem;
+    margin: 15px;
+  }
+}
+
+@media (min-width: 1440px) {
+  img {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .title {
+    font-size: 5.5rem;
+  }
+  .subtitle {
+    margin: 20px auto 50px auto;
+    font-size: 2rem;
+  }
+  
+  .display-input {
+    width: 800px;
+  }
+  .display input {
+    font-size: 1.8rem;
+    width: 670px;
+    height: 70px;
+  }
+  .display button {
+    font-size: 1.5rem;
+    margin-right: 20px;
+  }
+  .display p {
+    width: 800px;
+    height: 40px;
+    font-size: 1.7rem;
+  }
+  
+  .settings {
+    margin-top: 40px;
+  }
+  .settings-inputs .number {
+    width: 80px;
+    height: 80px;
+    font-size: 2.2rem;
+  }
+  .settings-inputs .range {
+    width: 600px;
+  }
+  .settings-inputs .range::-webkit-slider-thumb {
+    height: 46px;
+    width: 46px;
+  }
+  
+  .settings-button button {
+    width: 250px;
+    height: 90px;
+    font-size: 2rem;
+    margin: 25px;
+  }
+}

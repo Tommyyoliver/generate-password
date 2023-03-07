@@ -10,6 +10,7 @@
   background-image: linear-gradient(180deg, #433562 0, #332a5d 25%, #1f1f59 50%, #001655 75%, #000d51 100%);
   width: 100vw;
   height: 100vh;
+  overflow-x: hidden;
 }
 
 img {
@@ -134,11 +135,11 @@ img {
   }
 
   .title {
-    font-size: 4rem;
+    font-size: 3.7rem;
   }
   .subtitle {
-    margin: 20px auto 50px auto;
-    font-size: 1.5rem;
+    margin: 20px auto 40px auto;
+    font-size: 1.4rem;
   }
   
   .display-input {
@@ -161,7 +162,7 @@ img {
   }
   
   .settings {
-    margin-top: 40px;
+    margin-top: 0;
     width: 100vw;
   }
   .settings-inputs {
@@ -173,7 +174,7 @@ img {
     width: 70px;
     height: 70px;
     font-size: 1.8rem;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
   }
   .settings-inputs .range {
     width: 400px;

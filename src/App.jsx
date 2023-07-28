@@ -54,9 +54,6 @@ function App() {
   }
   return (
     <div className="App">
-      <a href='https://tommy-oliver-portfolio.netlify.app' target="_blank">
-        <img src={logo} alt='logo' />
-      </a>
       <h1 className='title'>Generate Password</h1>
       <h3 className='subtitle'>Generate strong passwords with one click</h3>
       <div className='display'>
